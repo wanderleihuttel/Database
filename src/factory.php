@@ -75,7 +75,8 @@ class ezcDbFactory
                                              'pgsql'  => 'ezcDbHandlerPgsql',
                                              'oracle' => 'ezcDbHandlerOracle',
                                              'sqlite' => 'ezcDbHandlerSqlite',
-                                             'mssql' => 'ezcDbHandlerMssql', );
+                                             'mssql' => 'ezcDbHandlerMssql',
+                                             'firebird' => 'ezcDbHandlerFirebird' );
 
     /**
      * Adds a database implementation to the list of known implementations.
